@@ -13,7 +13,7 @@ def close():
     conn.close()
 
 def do(query):
-    cursor.execute(query) у 
+    cursor.execute(query)  
     conn.commit()
 
 def clear_db():
